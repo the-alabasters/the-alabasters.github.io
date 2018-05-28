@@ -1,0 +1,418 @@
+/*
+millenial pink #E4BCA9
+Light sea green #96C1B7
+Dark sea green #8AA797
+Denim #798E96
+Erdos brown #BC9364
+Matte grey text #6A6A6D
+sweater green b1bf87ff
+purple pants 6f567dff
+pants blue dark 80d4d9fc
+pants blue light 83e8eeff
+light mauve fbc7d7ff
+dark mauve c799a9ff
+*/
+
+.mdl-layout__header-row {
+    background: #96C1B7;
+    color: #96C1B7;
+}
+
+.mdl-layout__header-row .mdl-navigation__link {
+    display: block;
+    color: white;
+    line-height: 64px;
+    padding: 24px;
+}
+
+.mdl-layout__header-row .mdl-navigation__link {
+    line-height: 56px;
+    padding: 0px 12px !important;
+}
+
+main {
+  padding: 50px;
+}
+
+body {
+    font-family: 'Raleway', sans-serif !important;
+}
+
+
+
+#intro-alabaster-container {
+  text-align: center;
+}
+
+#logo {
+    margin-top: 00px;
+    margin-left: 00px;
+    height: 500px;
+
+}
+
+#logo2 {
+    margin-top: 50px;
+    margin-left: 00px;
+    height: 500px;
+
+}
+
+#logo3 {
+    margin-top: 100px;
+    margin-left: 00px;
+    height: 300px;
+
+}
+
+.intro-alabaster {
+  padding-top: 20px;
+}
+
+.intro-alabaster2 {
+  padding-top: 10px;
+}
+
+.typo-alabasters-2 {
+    font-family: 'Pacifico', cursive !important;
+    font-weight: 200;
+    color: #FFFFFF;
+    padding: 8px;
+    font-size: 70px;
+    font-weight: 300;
+    line-height: 80px;
+    text-align: left;
+}
+
+.typo-alabasters {
+    font-family: 'Pacifico', cursive;
+    font-weight: 200;
+    color: #96C1B7;
+    padding: 8px;
+    font-size: 70px;
+    font-weight: 300;
+    line-height: 80px;
+    text-align: center;
+}
+
+.typo-alabasters2 {
+    ffont-family: 'Poiret One', cursive;
+    font-weight: 200;
+    color: #96C1B7;
+    padding: 8px;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 50px;
+    text-align: center;
+}
+
+.typo-alabasters3 {
+    font-family: 'Pacifico', cursive;
+    font-weight: 200;
+    color: #96C1B7;
+    padding: 8px;
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 60px;
+    text-align: center;
+}
+
+.typo-alabasters4 {
+    font-family: 'Poiret One', cursive;
+    font-weight: 200;
+    color: #96C1B7;
+    padding: 8px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: center;
+}
+
+.typo-alabasters5 {
+    font-family: 'Pacifico', cursive;
+    font-weight: 200;
+    color: #96C1B7;
+    padding: 8px;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: center;
+}
+
+.typo-alabasters6 {
+    font-family: 'Poiret One', cursive;
+    font-weight: 200;
+    color: #96C1B7;
+    padding: 8px;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 15px;
+    text-align: center;
+}
+
+#alabaster-container {
+    padding: 25px;
+    text-align: center;
+}
+
+#logo-sm {
+    margin-top: 60px;
+    margin-bottom: 75px;
+    width: 90px;
+}
+
+.typo-words {
+    font-weight: 200;
+    color: #6A6A6D;
+    text-align: justify;
+}
+
+#logo-sm2 {
+    margin-top: 59px;
+    margin-bottom: 50px;
+    width: 90px;
+}
+
+#schedule-container {
+  text-align: center;
+}
+
+.typo-schedule {
+    color: #E4BCA9;
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 60px;
+    padding: 8px;
+    margin-top: 35px;
+}
+
+.typo-date {
+    color: #E4BCA9;
+    text-align: center;
+    margin: 10px;
+    font-weight: 200;
+    font-size: 14px;
+}
+
+.typo-leftsched {
+    font-size: 14px;
+    color: #6A6A6D;
+    text-align: right;
+    font-weight: 200
+}
+
+.typo-rightsched {
+    font-size: 14px;
+    color: #6A6A6D;
+    font-weight: 200;
+    text-align: left;
+}
+
+#logo-sm3 {
+    margin-top: 67px;
+    margin-bottom: 0px;
+    width: 90px;
+}
+
+#dancey-container {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+}
+
+#image-dancey {
+  height: 200px;
+}
+
+#image-dancey2 {
+  height: 550px;
+}
+
+#friday-container {
+    padding: 25px;
+}
+
+.block-marina {
+    color: #798E96;
+}
+
+.typo-marina {
+    color: #798E96;
+    text-align: center;
+    padding: 8px;
+    font-family: 'Poiret One', cursive;
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 60px;
+}
+
+.logo-block {
+    text-align: center;
+}
+
+#logo-sm4 {
+    margin-top: 40px;
+    margin-bottom: 0px;
+    width: 90px;
+}
+
+.typo-mar {
+    color: #798E96;
+    font-weight: 200;
+    padding: 8px;
+    text-align: justify;
+}
+
+#drexl-block {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.typo-drexl {
+    color: #BC9364;
+    text-align: center;
+    padding: 8px;
+    font-family: 'Poiret One', cursive;
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 60px;
+}
+
+.typo-oak {
+    color: #BC9364;
+    font-weight: 200;
+    padding: 8px;
+    text-align: justify;
+}
+
+#bolinas-block {
+    text-align: center;
+}
+
+.typo-bolinas {
+    color: #8AA797;
+    padding: 8px;
+    font-family: 'Poiret One', cursive;
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 60px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+.typo-bol {
+    color: #8AA797;
+    font-weight: 200;
+    padding: 8px;
+    text-align: justify;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+.typo-bolinas2 {
+    color: #8AA797;
+    padding: 8px;
+    font-family: 'Poiret One', cursive;
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 60px;
+}
+
+.typo-bol2 {
+    color: #8AA797;
+    font-weight: 200;
+    padding: 8px;
+    text-align: justify;
+}
+
+#logo-sm6 {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    width: 90px;
+}
+
+#rsvp-container {
+  text-align: center;
+}
+
+#image-rsvp {
+    height: 600px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#image-rsvp2 {
+    height: 400px;
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+
+.typo-rsvp {
+  color: #E4BCA9;
+  font-family: 'Poiret One', cursive;
+  font-size: 14px;
+  font-weight: 200;
+  padding-bottom: 100px;
+}
+
+#logo-sm5 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 90px;
+}
+
+#pillow-container {
+    color: #96C1B7;
+    padding: 25px;
+
+}
+
+.typo-hotel {
+  padding: 8px;
+  font-family: 'Poiret One', cursive;
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 60px;
+  padding: 0px;
+}
+
+.white-space {
+    height: 40px;
+}
+
+#end-container {
+    height:50px;
+    padding: 0px;
+
+}
+
+.typo-end {
+    font-size: 14px;
+    color: #E4BCA9;
+    font-weight: 200;
+    padding-top: 0px;
+}
+
+hr {
+    display: block;
+    height: 0.5px;
+    border: 0;
+    background: #E4BCA9;
+    border-top: 1px solid #e4bca9 !important;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.a-top {
+    color: #E4BCA9;
+}
+
+.a-pillow {
+    color: #8AA797;
+}
+
+.a-rsvp {
+    color: white;
+}
