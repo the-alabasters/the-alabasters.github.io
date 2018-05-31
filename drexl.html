@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Wedding Day</title>
+
+    <!-- Reference style.css -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Poiret+One|Raleway" rel="stylesheet">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
+    <!-- Reference minified version of D3 -->
+    <!-- <script type="text/javascript" src="d3.min.js"></script> -->
+</head>
+
+<body>
+<!-- Uses a header that scrolls with the text, rather than staying
+locked at the top -->
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <header class="mdl-layout__header">
+        <div class="mdl-layout__header-row">
+            <!-- Title -->
+            <a class="mdl-layout-title typo-alabasters-2 a-title" href="#intro-alabaster-container">Alabasters</a>
+            <!--<span class="mdl-layout-title">Title</span> -->
+            <!-- Add spacer, to align navigation to the right -->
+            <div class="mdl-layout-spacer"></div>
+            <!-- Navigation -->
+            <nav class="mdl-navigation">
+                <!--<a class="mdl-navigation__link" href="#intro-alabaster-container">Start</a>-->
+                <a class="mdl-navigation__link typo-nav" href="#alabaster-container">Story</a>
+                <a class="mdl-navigation__link typo-nav" href="#friday-container">Party</a>
+                <a class="mdl-navigation__link typo-nav" href="#rsvp-container">RSVP</a>
+                <a class="mdl-navigation__link typo-nav" href="#pillow-container">Pillow talk & other details</a>
+            </nav>
+        </div>
+    </header>
+    <main class="mdl-layout__content">
+        <div class="page-content">
+            <div id="intro-alabaster-container">
+                <div class="mdl-grid">
+                    <div class="mdl-cell mdl-cell--12-col mdl-cell--hide-tablet mdl-cell--hide-phone">
+                        <img id="logo" src="images/family.png" alt="Alabasters">
+                    </div>
+                    <div class="mdl-cell mdl-cell--8-col mdl-cell--hide-desktop mdl-cell--hide-phone">
+                        <img id="logo2" src="images/family.png" alt="Alabasters">
+                    </div>
+                    <div class="mdl-cell mdl-cell--4-col mdl-cell--hide-desktop mdl-cell--hide-tablet">
+                        <img id="logo3" src="images/family.png" alt="Alabasters">
+                    </div>
+
+                    <div class="intro-alabaster mdl-cell mdl-cell--12-col mdl-cell--hide-phone mdl-cell--hide-tablet">
+                        <div class="typo-alabasters">Alabasters</div>
+                        <div class="typo-alabasters2">8.10.18</div>
+                    </div>
+
+                    <div class="intro-alabaster mdl-cell mdl-cell--8-col mdl-cell--hide-desktop mdl-cell--hide-phone">
+                        <div class="typo-alabasters3">Alabasters</div>
+                        <div class="typo-alabasters4">8.10.18</div>
+                    </div>
+
+                    <div class="intro-alabaster2 mdl-cell mdl-cell--4-col mdl-cell--hide-desktop mdl-cell--hide-tablet">
+                        <div class="typo-alabasters5">Alabasters</div>
+                        <div class="typo-alabasters6">8.10.18</div>
+                    </div>
+
+                    <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet">
+                    </div>
+
+
+                </div>
+            </div>
+            <div id="alabaster-container">
+                <div class="mdl-grid">
+                    <div class="mdl-cell--2-offset"></div>
+                    <div class="mdl-cell mdl-cell--8-col">
+                        <img id="logo-sm" src="images/sea.png" alt="Beach">
+                        <p class="typo-words">Shortly after Amy moved to Berkeley, she was painting a chair in the
+                            backyard of her fourplex apartment. David came over to say hello from where he was
+                            previously sunbathing on a blue-striped towel in the gravel parking lot. They casually
+                            sponged turquoise paint while they learned more about each other. One was looking forward to
+                            a new beginning in California, and the other, having lived there most of his life, couldn’t
+                            imagine existing anywhere more than a few miles from the beach. There was eventually a kiss,
+                            a kitten, and on October 9, 2017 there was a proposal. Amy proposed in Spain with a small
+                            silver wave - so that the beach would never be far from David, and he would never be far
+                            from her.</p>
+                        <img id="logo-sm2" src="images/seablue.png" alt="Beach">
+                    </div>
+                    <div class="mdl-cell--2-offset"></div>
+
+                </div>
+            </div>
+
+
+            <div id="dancey-container2">
+                <div class="mdl-cell mdl-cell--12-col mdl-cell--hide-phone">
+                    <img id="image-dancey" src="images/agate_left.jpg" alt="Look out!">
+                    <img id="image-dancey" src="images/agate_right.jpg" alt="Look out!">
+                </div>
+                <div class="mdl-cell mdl-cell--12-col mdl-cell--hide-desktop mdl-cell--hide-tablet">
+                    <img id="image-dancey2" src="images/agate_phone.jpg" alt="Look out!">
+                </div>
+            </div>
+
+
+            <div id="friday-container">
+                <div id="drexl-block">
+                    <div class="mdl-grid">
+                        <div class="mdl-cell--3-offset mdl-cell--hide-tablet"></div>
+                        <div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet">
+                            <div class="typo-drexl">Drexl, Oakland</div>
+                            <div class="typo-drexl">Friday 6pm-10pm</div>
+                            <p class="typo-oak">For our reception, we looked for a venue that was modern and easy. We
+                                stopped for a drink at Drexl on Valentine’s Day, and everything about it felt right -
+                                from the exposed antique wallpaper to the low-lighting and Skee-ball game. Please join
+                                us there in the heart of Downtown Oakland for drinks, toasts, dancing, and a few of our
+                                favorite foods. As it is a bar, only guests 21+ can attend. Let us know if we can
+                                coordinate help for our youngest friends.</p>
+                        </div>
+                        <div class="logo-block mdl-cell mdl-cell--2-col mdl-cell--hide-phone">
+                            <img id="logo-sm4" src="images/bar.png" alt="Bar">
+                        </div>
+                        <div class="logo-block mdl-cell mdl-cell--4-col mdl-cell--hide-desktop mdl-cell--hide-tablet">
+                            <img id="logo-sm4" src="images/bar.png" alt="Bar">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="rsvp-container">
+                <div class="mdl-grid">
+                    <div class="mdl-cell mdl-cell--12-col">
+                      <a class="typo-click a-rsvp" href="https://goo.gl/forms/BTqDvfLqSz0Bt6VF2" target="_blank">Click to...</a>
+                    </div>
+                    <div class="mdl-cell mdl-cell--12-col">
+                      <a href="https://goo.gl/forms/BTqDvfLqSz0Bt6VF2" target="_blank"><img id="image-rsvp"
+                                                src="images/circleKiss.jpg" alt="RSVP"></a>
+                    </div>
+                    <div class="mdl-cell mdl-cell--12-col">
+                        <a class="typo-rsvp a-rsvp" href="https://goo.gl/forms/BTqDvfLqSz0Bt6VF2" target="_blank">RSVP</a>
+                        <div class="typo-pc">(Photo credit: Irwin)</div>
+                    </div>
+                </div>
+            </div>
+            <div id="pillow-container">
+                <div class="mdl-grid">
+                  <div class="mdl-cell--2-offset mdl-cell--hide-tablet"></div>
+                    <div class="mdl-cell mdl-cell--6-col">
+                        <div class="typo-hotel">Pillow talk:</div>
+                        <p class="typo-words">We reserved a <a class="a-pillow"
+                                                               href="http://doubletree.hilton.com/en/dt/groups/personalized/J/JBKCADT-606-20180809/index.jhtml?WT.mc_id=POG"
+                                                               target="_blank">room block at the Doubletree - Berkeley
+                            Marina</a>, Wednesday night 8.08.18 through Sunday 8.12.18</p>
+                        <p></p>
+                    </div>
+                    <div class="logo-block mdl-cell mdl-cell--3-col mdl-cell--hide-tablet">
+                        <img id="logo-sm5" src="images/sea.png" alt="Beach">
+                    </div>
+                    <div class="white-space mdl-cell mdl-cell--12-col"></div>
+                </div>
+                <div class="mdl-grid">
+                  <div class="logo-block mdl-cell mdl-cell--3-col mdl-cell--hide-tablet">
+                      <img id="logo-sm5" src="images/sea.png" alt="Beach">
+                  </div>
+                    <div class="mdl-cell mdl-cell--6-col">
+                        <div class="typo-hotel">Registry:</div>
+                        <p class="typo-words">Since some of you have asked, we put together a simple registry with <a
+                                class="a-pillow" href="https://www.zola.com/registry/thealabasters"
+                                target="_blank">Zola</a>. Gifts are not expected and 100% optional.</p>
+                    </div>
+                    <div class="mdl-cell--2-offset mdl-cell--hide-tablet"></div>
+                </div>
+            </div>
+
+            <div id="end-container">
+                <hr/>
+                <div class="typo-end">Website designed by the future Mr. Alabaster and his future wife.
+                    <a class="a-top" href="#intro-alabaster-container">Head back to the top</a>
+                </div>
+                <hr/>
+                <div class="typo-end">Icons made by <a class="a-top" href="http://www.freepik.com" title="Freepik">Freepik</a> from
+                  <a class="a-top" href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by
+                  <a class="a-top" href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+            </div>
+        </div>
+    </main>
+</div>
+
+</body>
+
+</html>
