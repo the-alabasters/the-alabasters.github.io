@@ -10,6 +10,65 @@
 
 <body id="grad">
 
+  <script type = "text/javascript">
+
+  // Note: Like all Javascript password scripts, this is hopelessly insecure as the user can see
+  //the valid usernames/passwords and the redirect url simply with View Source.
+  // And the user can obtain another three tries simply by refreshing the page.
+  //So do not use for anything serious!
+
+  var count = 2;
+  function validate() {
+  var pw = document.myform.pword.value;
+  var valid = false;
+  var altv  = false;
+
+  var pwArray = ["i love david"];
+
+  for (var i=0; i <pwArray.length; i++) {
+  if ((pw == "bolinas")) {
+  valid = true;
+  break;
+  }
+  if ((pw == "drexl")) {
+  altv = true;
+  break;
+  }
+  }
+
+  if (valid) {
+  window.open('bolinas.html');
+  return false;
+  }
+
+  if (altv) {
+  window.open('drexl.html');
+  return false;
+  }
+
+  var t = " tries";
+  if (count == 1) {t = " try"}
+
+  if (count >= 1) {
+  alert ("Invalid password.  You have " + count + t + " left.");
+  document.myform.pword.value = "";
+  setTimeout("document.myform.pword.focus()", 25);
+  setTimeout("document.myform.pword.select()", 25);
+  count --;
+  }
+
+  else {
+  alert ("Still incorrect! You have no more tries left!");
+  document.myform.pword.value = "No more tries allowed!";
+  document.myform.pword.disabled = true;
+  return false;
+  }
+
+  }
+
+  </script>
+
+  </form>
   <div class="outer">
     <div class="middle">
       <div class="inner">
@@ -18,40 +77,27 @@
             <h2 class="mdl-card__title-text">The Alabasters</h2>
           </div>
           <div class="mdl-card__supporting-text">
-            Thank you for visiting our wedding website. Please, kindly, clicky the button and enter your wedding code.
+            Thank you for visiting our wedding website. Please, kindly, enter your wedding code and clicky the button.
           </div>
           <div class="mdl-card__actions mdl-card--border">
-            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" onClick="passWord()">
-              Click to Enter Code
-            </a>
+            <form name = "myform">
+            <p>Secret pass code <input type="text" name="pword">
+            <input type="button" value="Click" name="Submit" onclick= "validate()">
+            </p>
+
+            </form>
           </div>
         </div>
       </div>
     </div>
   </div>
+
+
+
+
 </body>
 
-<script>
-function passWord() {
-  var testV = 1;
-  var pass1 = prompt('Enter your wedding code phrase: ',' ');
-  while (testV < 3) {
 
-    if (pass1.toLowerCase() == "bolinas") {
-      window.open('bolinas.html');
-      break;
-    }
-    if (pass1.toLowerCase() == "drexl") {
-      window.open('drexl.html');
-      break;
-    }
-    testV+=1;
-    var pass1 =
-    prompt('Access Denied - Password Incorrect, Please Try Again.','Password');
-  }
-  if (pass1.toLowerCase()!="password" & testV ==3)
-  history.go(-1);
-  return " ";
-}
-</script>
+
+
 </html>
